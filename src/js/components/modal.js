@@ -206,14 +206,14 @@ class Modal {
 }
 
 /* istanbul ignore next */
-$.fn[NAME] = function (options) {
-  options = options || {}
+// $.fn[NAME] = function (options) {
+//   options = options || {}
 
-  return this.each(function () {
-    if (!$.data(this, NAME)) {
-      $.data(this, NAME, new Modal(this, options).init())
-    }
-  })
-}
+//   return this.each(function () {
+//     if (!$.data(this, NAME)) {
+//       $.data(this, NAME, new Modal(this, options).init())
+//     }
+//   })
+// }
 
 export default Modal
