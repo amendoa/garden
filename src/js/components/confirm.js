@@ -90,9 +90,9 @@ class Confirm {
 }
 
 /* istanbul ignore next */
-$.fn[NAME] = function (callback, options) {
-  return $.data(this, NAME, new Confirm(callback, options).init())
-}
+// $.fn[NAME] = function (callback, options) {
+//   return $.data(this, NAME, new Confirm(callback, options).init())
+// }
 
 /* istanbul ignore next */
 export default (callback, options) => new Confirm(callback, options).init()
