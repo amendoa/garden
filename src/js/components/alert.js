@@ -62,9 +62,9 @@ class Alert {
 }
 
 /* istanbul ignore next */
-$.fn[NAME] = function (options) {
-  return $.data(this, NAME, new Alert(options).init())
-}
+// $.fn[NAME] = function (options) {
+//   return $.data(this, NAME, new Alert(options).init())
+// }
 
 /* istanbul ignore next */
 export default (options) => new Alert(options).init()
