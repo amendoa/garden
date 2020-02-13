@@ -89,7 +89,6 @@ class Confirm {
   }
 }
 
-console.log('test')
 /* istanbul ignore next */
 if ($.fn) {
   $.fn[NAME] = function (callback, options) {
